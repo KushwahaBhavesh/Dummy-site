@@ -1,6 +1,6 @@
 import React from 'react'
 import Profile from './component/profile'
-
+import NotFound from "./component/NotFound/NotFound"
 import './App.css'
 import { Route, Routes } from "react-router-dom";
 import Option from './component/Option';
@@ -11,6 +11,7 @@ const App = () => {
   return <>
     <div className='container'>
       <Routes>
+      <Route  path='*' element={<NotFound/>}/>
         <Route path='/' element={<Signup />} />
         <Route path='/profile' element={<Profile />} />
         <Route path='/option' element={<Option/>} />
