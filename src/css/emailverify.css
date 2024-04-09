@@ -1,0 +1,41 @@
+/* Email Verify Page Css */
+.email-verify-container {
+  margin: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.verify-heading h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Noto sans", sans-serif;
+}
+
+.verify-icon {
+  margin: 3rem 0;
+  transform: scale(5);
+}
+
+.verify-message {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+p > span {
+  font-family: "Bungee Spice", sans-serif;
+}
+p > a{
+color: #ea0ca4;
+}
+
+@media screen and (max-width:420px) {
+
+  .verify-heading h2{
+    font-size: 1.5rem;
+  }
+  .verify-message{
+    font-size:0.89rem;
+  } 
+}

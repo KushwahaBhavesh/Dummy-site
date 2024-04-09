@@ -1,0 +1,95 @@
+
+/* Signup Page */
+.row {
+  display: grid;
+  grid-template-columns: 30% auto;
+  gap: 1rem;
+  height: 100vh;
+}
+.col-1 {
+  background: #f3f4de;
+  height: 100%;
+}
+.col-2 {
+  background: #fff;
+}
+
+.slogan {
+  margin: 0 2.5rem;
+  font-size: 2rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #7f5b0f;
+}
+.vectors {
+  margin: 8rem 2rem 0 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.signin-Link {
+  margin: 10px 25px 0 0;
+  display: flex;
+  justify-content: end;
+}
+.signin-Link span {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* Signup := Responsive */
+
+@media screen and (max-width: 1024px) {
+  .row {
+    grid-template-columns: 35% auto;
+  }
+  .slogan {
+    margin: 0 2rem;
+    font-size: 1.5rem;
+  }
+
+  .vectors {
+    margin: 10rem 0.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .vectors > img {
+    width: 320px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    grid-template-columns: 38% auto;
+  }
+  .slogan {
+    font-size: 1.3rem;
+  }
+  .vectors {
+    margin: 12rem 0.5rem 0 1rem;
+  }
+  .vectors > img {
+    width: 280px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .slogan {
+    font-size: 1.5rem;
+    width: 72%;
+    margin: 0rem 2.5rem;
+  }
+  .vectors {
+    margin: 2rem 0.5rem;
+  }
+  .vectors > img {
+    width: 320px;
+    height: 300px;
+  }
+}

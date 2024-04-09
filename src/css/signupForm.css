@@ -1,0 +1,110 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 12rem;
+  padding: 2rem;
+}
+.form-heading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.form-heading span {
+  font-family: "Bungee Spice", sans-serif;
+}
+.error {
+  margin: 1.2rem 0;
+  color: red;
+  font-weight: 500;
+  font-family: "Noto sans", sans-serif;
+}
+.signup-form {
+  margin-top: 1rem;
+}
+.name-input {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
+  line-height: 1.3;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: "Noto sans", sans-serif;
+}
+input[type="email"],
+[type="password"],
+[type="text"] {
+  width: auto;
+  padding: 0.7rem;
+  border-radius: 8px;
+  background: gainsboro;
+  border: transparent;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.email-input,
+.password-input {
+  margin-top: 2rem;
+}
+
+.checkbox-input {
+  margin: 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 0.8rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+input[type="checkbox"] {
+  transform: scale(2);
+  margin-top: 0.5rem;
+}
+
+.checkbox-input > p {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.btn {
+  margin-top: 2.5rem;
+}
+
+/* Resopnsive */
+@media screen and (max-width: 1024px) {
+  .form-container {
+    margin: 2rem 5rem;
+  }
+}
+
+@media screen and (max-width:768px){
+  .form-container{
+    margin: 1rem;
+  }
+  label{
+    font-size: 1rem;
+  }
+  input[type="checkbox"]{
+      transform: scale(1.5)
+  }
+  .checkbox-input > p{
+    font-size: 0.84rem;
+  }
+  
+}
+
+@media screen and (max-width:420px) {
+  .form-container{
+    margin: 0.8rem;
+  }
+  .name-input{
+    gap: 15px;
+  }
+  .checkbox-input > label{
+    font-size: 0.5rem;
+  }
+}

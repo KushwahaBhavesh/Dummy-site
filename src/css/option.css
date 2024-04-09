@@ -1,0 +1,136 @@
+.options {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.25;
+}
+.heading {
+  font-size: 2.5rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+.heading > span {
+  font-family: "Bungee Spice", sans-serif;
+}
+
+.options > p {
+  letter-spacing: 1.1px;
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.grid-three {
+  width: 70%;
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.grid-three > .card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+}
+.grid-three > .card > h3 {
+  font-size: 1.3rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.grid-three > .card > p {
+  font-family: "Noto sans", sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 82%;
+}
+.grid-three > .card > input {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.grid-three > .card > input:checked {
+  background-color: red;
+}
+
+.options > span {
+  font-weight: 600;
+}
+
+.btn-finish {
+  width: 15%;
+}
+.btn-finish > .btn {
+  width: 100%;
+}
+.btn-finish > p {
+  margin-top: 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-three {
+    width: 90%;
+    gap: 1rem;
+  }
+  .grid-three > .card > img {
+    width: 150px;
+  }
+  .grid-three > .card > h3 {
+    font-size: 1.1rem;
+  }
+  .btn-finish {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .options {
+    margin: 2rem 25px;
+  }
+  .options > p {
+    font-size: 0.9rem;
+    width: 90%;
+    margin-top: 1.3rem;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+  .grid-three {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-three > .card {
+    margin: 0 1.5rem;
+  }
+  .btn-finish {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .options > p {
+    width: 70%;
+    font-size: 0.8rem;
+  }
+  .grid-three > .card {
+    margin: 0;
+  }
+  .btn-finish {
+    width: 40%;
+  }
+}

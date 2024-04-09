@@ -1,0 +1,9 @@
+/* Profile Page */
+.profile-container {
+  height: 100vh;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
