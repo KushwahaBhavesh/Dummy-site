@@ -1,6 +1,7 @@
 # Dummy-site <a href="https://kushwahabhavesh.github.io/Dummy-site/">Site URL</a>
 
 Dummy-site is a simple web application for user registration and profile management.
+https://kushwahabhavesh.github.io/Dummy-site/
 
 ## Table of Contents
 
