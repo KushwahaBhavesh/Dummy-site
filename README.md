@@ -22,7 +22,7 @@ Dummy-site is a simple web application for user registration and profile managem
 
 1. Clone the repository:
 
-bash
+
 git clone https://github.com/KushwahaBhavesh/Dummy-site
 
 
@@ -35,15 +35,12 @@ git clone https://github.com/KushwahaBhavesh/Dummy-site
 
 ## Usage
 1. Start the development server:
-npm start
+#npm start
 
-Open your browser and navigate to http://localhost:3000 to access the application.
-
-Sign up for a new account by filling out the registration form.
-
-After successful registration, you'll be redirected to the profile page.
-
-You can manage your profile information and explore other features of the application.
+      #Open your browser and navigate to http://localhost:3000 to access the application.
+      #Sign up for a new account by filling out the registration form.
+      #After successful registration, you'll be redirected to the profile page.
+      #You can manage your profile information and explore other features of the application.
 
 ## Contribution
 Contributions are welcome! If you have any suggestions, bug fixes, or improvements, feel free to open an issue or create a pull request.
