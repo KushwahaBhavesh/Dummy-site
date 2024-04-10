@@ -12,10 +12,10 @@ const App = () => {
     <div className='container'>
       <Routes>
       <Route  path='*' element={<NotFound/>}/>
-        <Route path='/' element={<Signup />} />
-        <Route path='/profile' element={<Profile />} />
-        <Route path='/option' element={<Option/>} />
-        <Route path='/verifyEmail' element={<EmailVerify/>} />
+        <Route path='/Dummy-site/' element={<Signup />} />
+        <Route path='/Dummy-site/profile' element={<Profile />} />
+        <Route path='/Dummy-site/option' element={<Option/>} />
+        <Route path='/Dummy-site/verifyEmail' element={<EmailVerify/>} />
         
       </Routes>
     </div>
