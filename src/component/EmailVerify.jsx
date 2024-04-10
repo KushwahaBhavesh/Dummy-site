@@ -3,7 +3,7 @@ import { MdMarkEmailUnread } from "react-icons/md";
 import '../css/emailverify.css'
 import Layout from './Layout/Layout';
 
-const EmailVerify = () => {
+const Emailverify = () => {
   return <>
   <Layout>
     <section className='email-verify-container'>
@@ -25,4 +25,4 @@ const EmailVerify = () => {
   </>
 }
 
-export default EmailVerify
+export default Emailverify
