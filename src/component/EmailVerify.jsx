@@ -21,6 +21,7 @@ const Emailverify = () => {
           <p>Dont't receive the email? Check your Spam folder,it may have been caught by a filter.<br /> if you still dont't see it,you can <Link> resend the confirmation email.</Link></p>
           <p>Wrong email address?<Link to='#'>Change it.</Link></p>
         </div>
+        <Link to="/Dummy-site/signup"><button>Home</button></Link>
       </section>
     </Layout>
   </>
