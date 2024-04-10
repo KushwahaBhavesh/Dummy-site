@@ -9,7 +9,6 @@ const profile = () => {
       <section className='profile-container'>
         <div className='card'>
           <EditProfile />
-          {/* <Option/> */}
         </div>
       </section>
     </Layout>

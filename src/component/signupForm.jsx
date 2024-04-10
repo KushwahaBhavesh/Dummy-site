@@ -68,7 +68,7 @@ const signupForm = () => {
     if (loginData) {
       alert('Registration successful');
       setTimeout(() => {
-        navigate('/profile')
+        navigate('/Dummy-site/profile')
       }, 2000)
     }
 
@@ -102,8 +102,8 @@ const signupForm = () => {
         <div className='checkbox-input'>
           <input type="checkbox" className='largerCheckbox' id="checkbox" name="checkbox" />
           <label htmlFor="checkbox">Creating an account means you're okay with our
-            <a href='#'>Terms of Service, Privacy Policy</a> and our default
-            <a href='#'> Notification Settings</a> </label><br />
+            <Link to='#'>Terms of Service, Privacy Policy</Link> and our default
+            <Link to='#'> Notification Settings</Link> </label><br />
         </div>
         <button className='btn' type='button' onClick={onSubmitHandle}>Create Account</button>
       </form>

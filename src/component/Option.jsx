@@ -12,7 +12,7 @@ const Option = () => {
     setSelectedOption(selectedOption === designation ? null : designation);
   };
   const handleNextClick = () => {
-    navigate('/verifyEmail'); 
+    navigate('/Dummy-site/verifyEmail'); 
   };
 
   const dummyObject = [

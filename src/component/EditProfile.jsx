@@ -24,7 +24,7 @@ const EditProfile = () => {
   };
 
   const handleNextClick = () => {
-    navigate('/option'); 
+    navigate('/Dummy-site/option'); 
   };
   return (
     <div className='profile'>
