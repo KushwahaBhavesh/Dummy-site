@@ -1,7 +1,6 @@
 import React from 'react'
 import '../css/profile.css'
 import EditProfile from '../component/EditProfile'
-import Option from '../component/Option'
 import Layout from '../component/Layout/Layout'
 const profile = () => {
   return <>

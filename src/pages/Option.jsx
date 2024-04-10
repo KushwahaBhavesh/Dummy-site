@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import vectorGraphic from '../assets/vector1.gif'
 import "../css/option.css";
-import Layout from "./Layout/Layout";
+import Layout from "../component/Layout/Layout";
 import { useNavigate } from 'react-router-dom'; 
 
 const Option = () => {

@@ -1,18 +1,20 @@
 .footer-container {
   background: #1e2740;
   height: 20rem;
-  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   border-radius: 20px 25px 0 0;
   color: white;
-
-  display: grid;
-  grid-template-columns: 18% 18% 18% auto;
   padding: 2rem 10rem;
 }
+.grid {
+  
+  display: grid;
+  grid-template-columns: 18% 18% 18% auto;
+}
 .col {
+  position: static;
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -29,7 +31,6 @@
 }
 
 .col-4 {
-  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -43,6 +44,7 @@
 .col-4 > .news-letter > p {
   margin: 0.5rem 0;
   color: #9498a7;
+  text-wrap: wrap;
 }
 
 .news-letter-input {
@@ -87,28 +89,44 @@
   .footer-container {
     height: 25rem;
     padding: 2rem 2rem;
-   grid-template-columns: repeat(2,1fr);
-   gap:1rem;
   }
-  .social-media{
+  .grid {
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .news-letter {
+    margin-right: 30px;
+  }
+  .news-letter-input {
+    display: block;
+  }
+  .news-letter-input > .btn {
+    margin: 0.5rem 0 0 0;
+  }
+
+  .social-media {
     font-size: 1.8rem;
     margin-top: 1rem;
   }
-
 }
 
-@media screen and (max-width:420px) {
-  .footer-container{
+@media screen and (max-width: 420px) {
+  .footer-container {
     height: 28rem;
     padding: 1.5rem 1.5rem;
-    gap:2rem;
+    gap: 2rem;
   }
-  .news-letter-input{
+  .news-letter{
+    margin-right: 15px;
+  }
+
+  .news-letter-input {
     display: block;
     margin-right: 15px;
     width: 85%;
   }
-  .news-letter-input > .btn{
-    margin: .5rem 0 0 0;
+  .news-letter-input > .btn {
+    margin: 0.5rem 0 0 0;
   }
 }

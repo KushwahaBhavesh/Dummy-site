@@ -1,13 +1,12 @@
 import React, { useRef, useState } from 'react'
 import '../css/signupForm.css'
 import { Link, useNavigate } from "react-router-dom";
-const signupForm = () => {
 
-  const nameRef = useRef(undefined)
-  const usernameRef = useRef(undefined)
-  const emailRef = useRef(undefined)
-  const passwordRef = useRef(undefined)
-  const [loginData, setLogindata] = useState(false)
+const SignupForm = () => {
+  const nameRef = useRef(undefined);
+  const usernameRef = useRef(undefined);
+  const emailRef = useRef(undefined);
+  const passwordRef = useRef(undefined);
   const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
 
@@ -52,10 +51,7 @@ const signupForm = () => {
 
     // Store user details in localStorage only if username doesn't exist
     const newUser = { name, username, email, password };
-    if(newUser){
-      localStorage.setItem('users', JSON.stringify([...existingUsers, newUser]));
-      setLogindata(true)
-    }
+    localStorage.setItem('users', JSON.stringify([...existingUsers, newUser]));
 
     // Clear input fields
     nameRef.current.value = '';
@@ -65,13 +61,10 @@ const signupForm = () => {
 
     // Display success message
     setErrorMessage('');
-    if (loginData) {
-      alert('Registration successful');
-      setTimeout(() => {
-        navigate('/Dummy-site/profile')
-      }, 2000)
-    }
-
+    alert('Registration successful');
+    setTimeout(() => {
+      navigate('/Dummy-site/profile')
+    }, 2000);
   }
 
   return (
@@ -111,4 +104,4 @@ const signupForm = () => {
   );
 }
 
-export default signupForm
+export default SignupForm;

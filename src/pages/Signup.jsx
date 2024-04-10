@@ -8,9 +8,6 @@ const Signup = () => {
   return <Layout>
     <section className='row'>
       <div className='col-1'>
-        <h2 className="logo">
-          <span>Dummy</span>
-        </h2>
         <div className="slogan">
           <p>Discover the World's top Designers & Creatives.</p>
         </div>

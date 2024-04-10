@@ -26,16 +26,21 @@
 p > span {
   font-family: "Bungee Spice", sans-serif;
 }
-p > a{
-color: #ea0ca4;
+p > a {
+  color: #ea0ca4;
+}
+.email-verify-container > button {
+  margin-top: 3rem;
+}
+.email-verify-container > button > a {
+  color: #fff;
 }
 
-@media screen and (max-width:420px) {
-
-  .verify-heading h2{
+@media screen and (max-width: 420px) {
+  .verify-heading h2 {
     font-size: 1.5rem;
   }
-  .verify-message{
-    font-size:0.89rem;
-  } 
+  .verify-message {
+    font-size: 0.89rem;
+  }
 }

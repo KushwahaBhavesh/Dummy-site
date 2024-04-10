@@ -1,11 +1,12 @@
 import React from 'react'
-import Profile from './component/profile'
+
 import NotFound from "./component/NotFound/NotFound"
 import './App.css'
 import { Route, Routes } from "react-router-dom";
-import Option from './component/Option';
-import Signup from './component/Signup'
-import Emailverify from './component/Emailverify'
+import Signup from './pages/Signup'
+import Profile from './pages/profile'
+import Option from './pages/Option'
+import Emailverify from './pages/Emailverify'
 
 const App = () => {
   return <>

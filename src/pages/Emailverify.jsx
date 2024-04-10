@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdMarkEmailUnread } from "react-icons/md";
 import '../css/emailverify.css'
-import Layout from './Layout/Layout';
+import Layout from '../component/Layout/Layout';
 import { Link } from 'react-router-dom';
 
 const Emailverify = () => {

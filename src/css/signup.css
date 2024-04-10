@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 30% auto;
   gap: 1rem;
-  height: 100vh;
+  height: 100%;
 }
 .col-1 {
   background: #f3f4de;
@@ -13,17 +13,17 @@
 .col-2 {
   background: #fff;
 }
-
 .slogan {
-  margin: 0 2.5rem;
+  margin: 3rem 2.5rem;
   font-size: 2rem;
   font-family: "Noto Sans", sans-serif;
   font-weight: 800;
   line-height: 1.2;
   color: #7f5b0f;
 }
+
 .vectors {
-  margin: 8rem 2rem 0 2rem;
+  margin: 8rem 2rem 3rem 2rem;
   display: flex;
   justify-content: center;
 }
@@ -45,7 +45,7 @@
     grid-template-columns: 35% auto;
   }
   .slogan {
-    margin: 0 2rem;
+    margin: 3rem 2rem;
     font-size: 1.5rem;
   }
 
@@ -65,6 +65,7 @@
     grid-template-columns: 38% auto;
   }
   .slogan {
+    margin-top: 3rem;
     font-size: 1.3rem;
   }
   .vectors {
@@ -83,7 +84,7 @@
   .slogan {
     font-size: 1.5rem;
     width: 72%;
-    margin: 0rem 2.5rem;
+    margin: 3rem 2.5rem;
   }
   .vectors {
     margin: 2rem 0.5rem;

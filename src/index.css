@@ -23,7 +23,7 @@ a:hover {
 }
 
 html{
-  font-size: 92%;
+  overflow-x: hidden;
 }
 
 body {
