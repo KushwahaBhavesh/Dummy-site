@@ -26,15 +26,14 @@ bash
 git clone https://github.com/KushwahaBhavesh/Dummy-site
 
 
+        1. Navigate to the project directory:
+            cd Dummy-site
 
-1. Navigate to the project directory:
- cd Dummy-site
-
-2. Install dependencies:
-npm install
+        2. Install dependencies:
+            npm install
 
 
-<b>Usage</b>
+## Usage
 1. Start the development server:
 npm start
 
@@ -46,5 +45,5 @@ After successful registration, you'll be redirected to the profile page.
 
 You can manage your profile information and explore other features of the application.
 
-<b>Contribution</b>
+## Contribution
 Contributions are welcome! If you have any suggestions, bug fixes, or improvements, feel free to open an issue or create a pull request.
