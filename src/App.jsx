@@ -5,7 +5,7 @@ import './App.css'
 import { Route, Routes } from "react-router-dom";
 import Option from './component/Option';
 import Signup from './component/Signup'
-import EmailVerify from './component/EmailVerify'
+import EmailVerify from 't ./component/EmailVerify'
 
 const App = () => {
   return <>
